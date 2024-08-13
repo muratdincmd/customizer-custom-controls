@@ -890,62 +890,26 @@ input[type="number"]:focus {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.i-paw:before {
-    content: "\e901";
+.i-heart:before {
+	content: "\f004";
 }
-.i-cat:before {
-	content: "\f1b0";
-}
-.i-dog:before {
-	content: "\f6d3";
-}
-.i-bird:before {
-	content: "\f520";
-}
-.i-fish:before {
-	content: "\f578";
-}
-.i-squirrel:before {
-	content: "\f71a";
-}
-.i-chameleon:before {
-	content: "\e906";
-}
-.i-cat-food:before {
-	content: "\e907";
-}
-.i-dog-food:before {
-	content: "\e908";
-}
-.i-dog-education:before {
-	content: "\e909";
-}
-.i-cat-education:before {
-	content: "\e90a";
-}
-.i-cat-head:before {
-	content: "\e90b";
-}
-.i-dog-head:before {
-	content: "\e90c";
-}
-.i-love:before {
-	content: "\e90d";
-}
-.i-health:before {
-	content: "\e90e";
+.i-heart-solid:before {
+	content: "\f005";
 }
 .i-newspaper:before {
 	content: "\f1ea";
 }
-.i-heart-solid:before {
-	content: "\f004";
+.i-list:before {
+	content: "\e900";
 }
 .i-info:before {
 	content: "\f05a";
 }
 .i-menu:before {
 	content: "\e87a";
+}
+.i-settings:before {
+	content: "\f013";
 }
 .i-loading:before {
 	content: "\f110";
@@ -983,8 +947,47 @@ input[type="number"]:focus {
 .i-search:before {
 	content: "\f002";
 }
+.i-plus:before {
+	content: "\f0fa";
+}
+.i-square-plus:before {
+	content: "\f0fe";
+}
+.i-check:before {
+	content: "\f00c";
+}
 .i-user:before {
 	content: "\f007";
+}
+.i-user-pen:before {
+	content: "\f4ff";
+}
+.i-bookmark:before {
+	content: "\f02e";
+}
+.i-bookmark-solid:before {
+	content: "\e902";
+}
+.i-thumbs:before {
+	content: "\f164";
+}
+.i-thumbs-solid:before {
+	content: "\f165";
+}
+.i-up:before {
+	content: "\f30c";
+}
+.i-up-solid:before {
+	content: "\f31c";
+}
+.i-share:before {
+	content: "\f064";
+}
+.i-comment:before {
+	content: "\f075";
+}
+.i-comment-dots:before {
+	content: "\f076";
 }
 .i-comments:before {
 	content: "\f086";
@@ -1004,17 +1007,47 @@ input[type="number"]:focus {
 .i-rss:before {
 	content: "\f09e";
 }
+.i-bell:before {
+	content: "\f0f3";
+}
 .i-envelope:before {
 	content: "\f0e0";
+}
+.i-paper-plane:before {
+	content: "\f1d8";
 }
 .i-thumbtack:before {
 	content: "\f08d";
 }
+.i-image:before {
+	content: "\f03e";
+}
+.i-gallery:before {
+	content: "\e904";
+}
+.i-play:before {
+	content: "\f04b";
+}
+.i-volume-high:before {
+	content: "\e903";
+}
+.i-quote:before {
+	content: "\f10d";
+}
 .i-link:before {
 	content: "\f0c1";
 }
+.i-external-link:before {
+	content: "\f08e";
+}
+.i-lock:before {
+	content: "\f023";
+}
 .i-globe:before {
 	content: "\f0ac";
+}
+.i-print:before {
+	content: "\f02f";
 }
 .i-500px:before {
 	content: "\f26e";
@@ -1097,7 +1130,7 @@ input[type="number"]:focus {
 .i-twitch:before {
 	content: "\f1e8";
 }
-.i-twitter:before {
+.i-x:before {
 	content: "\f099";
 }
 .i-vimeo:before {
@@ -1114,6 +1147,15 @@ input[type="number"]:focus {
 }
 .i-youtube:before {
 	content: "\f167";
+}
+.i-line:before {
+	content: "\f3c0";
+}
+.i-viber:before {
+	content: "\f409";
+}
+.i-naver:before {
+	content: "\f411";
 }
 /* Icon Colors */
 .i-500px:hover {
@@ -1287,8 +1329,15 @@ input[type="text"] {
 #customize-control-laura_breadcrumbs_character .radio-button-label span {
 	padding: 5px 14px;
 }
-#customize-control-laura_back_to_top_style .radio-button-label span {
+#customize-control-laura_back_to_top_style .radio-button-label span,
+#customize-control-laura_member_badges_style .radio-button-label span {
 	padding: 5px 8px;
+}
+#customize-control-laura_member_badges_icon .radio-button-label span {
+    padding: 5px 11px;
+}
+#customize-control-laura_member_badges_icon .radio-button-label span i {
+    font-size: 15px;
 }
 #customize-control-laura_home_number_columns .customize-control-title,
 #customize-control-laura_category_number_columns .customize-control-title,
@@ -1311,6 +1360,19 @@ input[type="text"] {
 #customize-control-laura_author_pagination .customize-control-title,
 #customize-control-laura_archive_pagination .customize-control-title {
 	border-bottom: none;
+}
+#customize-control-laura_member_badges_level_one_title,
+#customize-control-laura_member_badges_level_one_color,
+#customize-control-laura_member_badges_level_two_title,
+#customize-control-laura_member_badges_level_two_color,
+#customize-control-laura_member_badges_level_three_title,
+#customize-control-laura_member_badges_level_three_color,
+#customize-control-laura_member_badges_level_four_title,
+#customize-control-laura_member_badges_level_four_color,
+#customize-control-laura_member_badges_level_five_title,
+#customize-control-laura_member_badges_level_five_color {
+	margin-bottom: 0;
+    padding-bottom: 0;
 }
 /*#customize-control-laura_logo_width,
 #customize-control-laura_logo_height {

@@ -1361,16 +1361,16 @@ input[type="text"] {
 #customize-control-laura_archive_pagination .customize-control-title {
 	border-bottom: none;
 }
-#customize-control-laura_member_badges_level_one_title,
-#customize-control-laura_member_badges_level_one_color,
-#customize-control-laura_member_badges_level_two_title,
-#customize-control-laura_member_badges_level_two_color,
-#customize-control-laura_member_badges_level_three_title,
-#customize-control-laura_member_badges_level_three_color,
-#customize-control-laura_member_badges_level_four_title,
-#customize-control-laura_member_badges_level_four_color,
-#customize-control-laura_member_badges_level_five_title,
-#customize-control-laura_member_badges_level_five_color {
+#customize-control-laura_member_badge_one_title,
+#customize-control-laura_member_badge_one_color,
+#customize-control-laura_member_badge_two_title,
+#customize-control-laura_member_badge_two_color,
+#customize-control-laura_member_badge_three_title,
+#customize-control-laura_member_badge_three_color,
+#customize-control-laura_member_badge_four_title,
+#customize-control-laura_member_badge_four_color,
+#customize-control-laura_member_badge_five_title,
+#customize-control-laura_member_badge_five_color {
 	margin-bottom: 0;
     padding-bottom: 0;
 }
